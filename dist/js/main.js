@@ -1,8 +1,9 @@
 $( document ).ready(function() {
 
   $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: false
+    animation: "fade",
+    controlNav: false,
+    directionNav: false, 
   });
 
 });// end of document ready

@@ -1,0 +1,52 @@
+
+
+.projects__project {
+  display:flex;
+  flex-direction:column;
+  padding:30px;
+  background-color:black;
+  height:auto;
+  border-bottom: 1px solid white;
+  width:100%;
+}
+
+.projects__description {
+  width:80%;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+.projects__slides {
+  background-color: white;
+  width:80%;
+  z-index: 0;
+}
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+
+
+.projects {
+  width: calc(85% - 1px);
+  margin-left: auto;
+  margin-top: 111px;
+}
+
+.projects__project {
+  display:flex;
+  flex-direction:row;
+  padding:40px;
+}
+
+.projects__description {
+  margin:0;
+  width:20%;
+  margin-right:40px;
+}
+
+
+  
+}
